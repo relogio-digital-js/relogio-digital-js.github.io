@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Relógio</title>
+</head>
+<body>
+    <main>
+        <div id="time">
+            <div class="circle" style="--clr:#ff2972;">
+                <div class="dot hora_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="hh"></circle>
+                </svg>
+                <div id="horas">00</div>
+            </div>
+            <div class="circle" style="--clr:#ffee00;">
+                <div class="dot min_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mm"></circle>
+                </svg>
+                <div id="minuto">00</div>
+            </div>
+            <div class="circle" style="--clr:#15ff00;">
+                <div class="dot seg_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="ss"></circle>
+                </svg>
+                <div id="segundo">00</div>
+            </div>
+            <div class="ap">
+                <div id="ampm">AM</div>
+            </div>
+        </div>
+        <div id="resultado" class="data"></div>
+    </main>
+    <footer>
+        <div class="linha"></div>
+
+        <div class="credito">
+            <h1 class="txt-credito">Criado por Rafael Dantas</h1>
+        </div>
+
+        <div class="insta">
+            <a href="https://instagram.com/rrafael_dantas" target="_blank" rel="external"><img src="assets/img/logo.png " alt="logo do instagram" class="logo-insta"></a>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+    <script src="assets/data/data.js"></script>
+</body>
+</html>
